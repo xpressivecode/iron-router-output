@@ -1,0 +1,31 @@
+<template name="iron-router-output-route">
+    <style type="text/css">
+        #iron-router-output-table td {
+            padding: 5px;
+        }
+
+        #iron-router-output-table tbody tr:hover {
+            background-color: #e5e5e5;
+        }
+    </style>
+    <table id="iron-router-output-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Path</th>
+                <th>Controller</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each this}}
+            <tr>
+                <td>{{name}}</td>
+                <td>{{originalPath}}</td>
+                <td>{{controller}}</td>
+                <td>{{action}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</template>

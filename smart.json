@@ -1,0 +1,8 @@
+{
+    "name": "iron-router-output",
+    "description": "Route output module for iron-router",
+    "homepage": "https://github.com/XpressiveCode/iron-router-output",
+    "author": "Mike Fitzgerald (https://github.com/xpressivecode)",
+    "version": "0.1.0",
+    "git": "https://github.com/XpressiveCode/iron-router-output.git"
+}
