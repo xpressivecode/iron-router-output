@@ -3,6 +3,6 @@
     "description": "Route output module for iron-router",
     "homepage": "https://github.com/XpressiveCode/iron-router-output",
     "author": "Mike Fitzgerald (https://github.com/xpressivecode)",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "git": "https://github.com/XpressiveCode/iron-router-output.git"
 }
