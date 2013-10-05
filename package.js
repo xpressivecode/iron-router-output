@@ -13,3 +13,9 @@ Package.on_use(function(api){
         'lib/iron-router-output.js'
     ], 'client');
 });
+
+Package.on_test(function(api){
+   api.use(['iron-router', 'templating', 'iron-router-output', 'tinytest', 'test-helpers']);
+
+   api.add_files('tests/iron-router-output-test.js', 'client');
+});

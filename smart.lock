@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "iron-router-output": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "iron-router-output": {
+        "path": "."
+      }
+    }
+  }
+}
