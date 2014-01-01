@@ -1,14 +1,5 @@
 <template name="iron-router-uri-route">
-    <style type="text/css">
-        #iron-router-uri-table td {
-            padding: 5px;
-        }
-
-        #iron-router-uri-table tbody tr:hover {
-            background-color: #e5e5e5;
-        }
-    </style>
-    <table id="iron-router-uri-table">
+    <table id="iron-router-uri-table" class="table table-stripped table-hover">
         <thead>
             <tr>
                 <th>Name</th>
@@ -18,7 +9,7 @@
             </tr>
         </thead>
         <tbody>
-            {{#each this}}
+            {{#each this.Model}}
             <tr>
                 <td>{{name}}</td>
                 <td>{{originalPath}}</td>
